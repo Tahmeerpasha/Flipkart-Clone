@@ -1,0 +1,39 @@
+*{
+    background-image:none;
+}
+.marquee{
+    margin: 5px 5px;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+    box-shadow: 50px;
+    border-radius: 5px;
+    transform-box: 2;
+}
+.text{
+    color: white;
+    margin: 5px 5px;
+    text-decoration: wavy;
+}
+#option{
+    margin: 5px 5px;
+    padding: 0px 50px;
+    font-size: larger;
+    width: 99%;
+    border-radius: 7px;
+    height: 40px;
+
+}
+#button{
+    margin: 5px 5px;
+
+}
+#button #Submit {
+    margin: 5px 5px;
+    margin-left: 140px;
+}
+.body{
+    margin: 50px 50px;
+    padding: 50px 450px;
+}

@@ -1,0 +1,85 @@
+.category{
+    margin: 0px 50px;
+}
+#groceryimg{
+    margin: 0px 20px;
+    width: 100px;
+
+}
+#grocery{
+    margin: 0px 40px;
+} 
+#mobiles{
+    margin: 0px 30px;
+} 
+
+#mobileimg{
+    margin: 0px 10px;
+    width: 100px;
+
+} 
+#fashionimg{
+    margin: 0px 10px;
+    width: 100px;
+}
+#fashion{
+    margin: 0px 40px;
+
+}
+#electronicimg{
+    width: 100px;
+
+    margin: 0px 30px;
+}
+
+#electronics{
+    margin: 0px 30px;
+}
+#home{
+    margin: 0px 45px;
+}
+#homeimg{
+    margin: 0px 0px;
+    width: 100px;
+
+}
+#appliancesimg{
+    margin: 0px 20px;
+    width: 100px;
+
+}
+#appliance{
+    margin: 0px 20px    ;
+}
+
+#travelimg{
+    margin: 0px 20px    ;
+    width: 100px;
+
+}
+#travel{
+    margin: 0px 55px    ;
+}
+#toys{
+    margin: 0px 40px    ;
+}
+#toysimg{
+    margin: 0px 15px    ;
+    width: 100px;
+}
+#offersimg{
+    margin: 0px 15px    ;
+    width: 100px;
+}
+#offers{
+    margin: 0px 50px;
+}
+
+#bikesimg{
+    margin: 0px 20px;
+    width: 100px;
+}
+
+#bikes{
+    margin: 0px 30px;
+}

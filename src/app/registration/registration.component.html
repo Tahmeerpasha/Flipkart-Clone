@@ -1,0 +1,33 @@
+<form action="" class="form-group" >
+    <section class="body">
+    <marquee class="marquee" direction="right" behavior="alternate" scrollamount="10px">Registration Form</marquee>
+        <div class="form-group"> 
+            <label for="" class="text">UserName</label>
+            <input type="text" #username formControlName="username" class="form-control" id="">
+        </div>
+        <div class="form-group"> 
+            <label for=""class="text">Password</label>
+            <input type="password" #password formControlName="password" name="" class="form-control" id="">
+        </div>
+        <div class="form-group"> 
+            <label for=""class="text">Mobile Number</label>
+            <input type="number" #mobile formControlName="mobile" name="" class="form-control" id="">
+        </div>
+        <div class="form-group"> 
+            <label for=""class="text">Gender</label><br>
+            <select name=""  id="option" #gender formControlName="gender">
+                <option value="--------">Select your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-group" id="button">
+            <input type="submit" (click)="submitForm(username,password,mobile,gender)" class="btn btn-info" value="Submit" id="Submit">
+            <input type="reset" value="Reset" class="btn btn-info" id="input">
+        </div>
+        <h2>{{registrationForm.value | json}}</h2>
+    </section>
+    </form>
+    
+    
